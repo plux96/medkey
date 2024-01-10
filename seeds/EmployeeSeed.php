@@ -23,7 +23,7 @@ class EmployeeSeed extends Seed
                 'last_name' => 'administrator',
                 'birthday' => '1970-01-01',
                 'sex' => Employee::SEX_MALE,
-                'speciality_id' => ArrayHelper::findBy($defaultSpeciality, ['title' => 'Default Doctor'])->id,
+                // 'speciality_id' => ArrayHelper::findBy($defaultSpeciality, ['title' => 'Default Doctor'])->id,
             ]
         ];
     }

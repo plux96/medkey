@@ -301,7 +301,7 @@ class PatientCard extends CardView
                                                             'options' => [
                                                                 'class' => 'form-control',
                                                             ],
-                                                            'mask' => '+7 (999) 999-99-99',
+                                                             'mask' => '+998 (99) 999-99-99',
                                                         ],
                                                         'enableError' => true,
                                                     ],
@@ -329,7 +329,7 @@ class PatientCard extends CardView
                                                             'options' => [
                                                                 'class' => 'form-control',
                                                             ],
-                                                            'mask' => '+7 (999) 999-99-99',
+                                                             'mask' => '+998 (99) 999-99-99',
                                                         ],
                                                         'enableError' => true,
                                                     ],

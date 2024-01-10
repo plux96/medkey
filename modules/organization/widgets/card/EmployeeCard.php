@@ -314,7 +314,7 @@ class EmployeeCard extends CardView
                                                             'options' => [
                                                                 'class' => 'form-control',
                                                             ],
-                                                            'mask' => '+7 (999) 999-99-99', // todo more country
+                                                            'mask' => '+998 (99) 999-99-99', // todo more country
                                                         ],
                                                         'enableError' => true,
                                                     ],
@@ -342,7 +342,7 @@ class EmployeeCard extends CardView
                                                             'options' => [
                                                                 'class' => 'form-control',
                                                             ],
-                                                            'mask' => '+7 (999) 999-99-99', // todo more country
+                                                             'mask' => '+998 (99) 999-99-99', // todo more country
                                                         ],
                                                         'enableError' => true,
                                                     ],

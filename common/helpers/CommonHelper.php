@@ -16,7 +16,7 @@ class CommonHelper
     const FORMAT_DATETIME_UI = 'dd.MM.yyyy HH:mm';
     const FORMAT_DATE_DB = 'yyyy-MM-dd';
     const FORMAT_DATETIME_DB = 'yyyy-MM-dd HH:mm';
-    const PHONE_MASK = '+7 (999) 999-99-99';
+    const PHONE_MASK = '+998 (94) 123-45-67';
     const CURRENCY_SUM_MASK = '[9{1,9}][.99]';
 
 

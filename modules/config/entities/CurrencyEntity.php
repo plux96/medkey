@@ -47,11 +47,11 @@ class CurrencyEntity
         'minorUnit' => 2,
         'numericCode' => 840,
         ),
-         * 'EUR' =>  array (
-        'alphabeticCode' => 'EUR',
-        'currency' => 'Euro',
-        'minorUnit' => 2,
-        'numericCode' => 978,
+         * 'UZS' =>  array (
+        'alphabeticCode' => 'UZS',
+        'currency' => 'Uzbekistan sum',
+        'minorUnit' => 0,
+        'numericCode' => 860,
         ),
          *
          *  'RUB' => array (
@@ -69,12 +69,12 @@ class CurrencyEntity
                     'minorUnit' => 2,
                     'numericCode' => 840,
                 ],
-            'EUR' =>
+            'UZS' =>
                 [
-                    'alphabeticCode' => 'EUR',
-                    'currency' => 'Euro',
-                    'minorUnit' => 2,
-                    'numericCode' => 978,
+                    'alphabeticCode' => 'UZS',
+                    'currency' => 'Uzbekistan sum',
+                    'minorUnit' => 0,
+                    'numericCode' => 860,
                 ],
             'RUB' =>
                 [

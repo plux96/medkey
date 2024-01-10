@@ -13,28 +13,28 @@ class DashboardItemEn extends Seed
 
         $this->data = [
             [
-                'title' => 'Order list',
+                'title' => 'Список заказа',
                 'dashboard_id' => ArrayHelper::findBy($dashboards, ['key' => 'default'])->id,
                 'widget' => 'OrderListDashlet',
                 'position' => 0,
                 'order' => 0,
             ],
             [
-                'title' => 'Patient list',
+                'title' => 'Список пациентов',
                 'dashboard_id' => ArrayHelper::findBy($dashboards, ['key' => 'default'])->id,
                 'widget' => 'PatientListDashlet',
                 'position' => 0,
                 'order' => 1,
             ],
             [
-                'title' => 'EHR list',
+                'title' => 'Список ЭМК',
                 'dashboard_id' => ArrayHelper::findBy($dashboards, ['key' => 'default'])->id,
                 'widget' => 'EhrListDashlet',
                 'position' => 0,
                 'order' => 2,
             ],
             [
-                'title' => 'Order graph',
+                'title' => 'График заказов',
                 'dashboard_id' => ArrayHelper::findBy($dashboards, ['key' => 'default'])->id,
                 'widget' => 'OrderChartDashlet',
                 'position' => 1,
